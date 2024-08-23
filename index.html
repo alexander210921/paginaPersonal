@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal | [Tu Nombre]</title>
+    <meta name="description" content="Página personal de [Tu Nombre], donde puedes conocer más sobre mis proyectos, habilidades y formas de contacto.">
+    <meta name="keywords" content="Página personal, [Tu Nombre], proyectos, contacto, habilidades">
+    <meta name="author" content="[Tu Nombre]">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header role="banner">
+        <!-- <div class="logo">
+            <img src="tu-logo.png" alt="Logo de [Tu Nombre]" width="50" height="50">
+        </div> -->
+        <nav role="navigation" aria-label="Menú principal">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+<!-- Sección Sobre Mí -->
+<!-- Sección Sobre Mí -->
+<section id="sobre-mi" class="sobre-mi" role="region" aria-labelledby="titulo-sobre-mi">
+    <div class="contenedor">
+        <h2 id="titulo-sobre-mi">Sobre Mí</h2>
+        <div class="sobre-mi-content" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+
+            <div class="sobre-mi-texto" style="flex: 1; padding-right: 20px; max-width: 600px;margin-left: 3%;">
+                <p style="font-size: 1.2em; line-height: 1.6; color: #333;">Hola, soy <strong>Franklin Alexander</strong>, un apasionado desarrollador de software con una sólida experiencia en los sectores comercial y bancario.</p>
+                <p style="font-size: 1.2em; line-height: 1.6; color: #333;">A lo largo de mi carrera, he tenido la oportunidad de trabajar en proyectos que van desde la creación de soluciones tecnológicas para optimizar procesos comerciales hasta el desarrollo de sistemas robustos y seguros para la banca.</p>
+                <p style="font-size: 1.2em; line-height: 1.6; color: #333;">Mi enfoque está en crear software eficiente y escalable que no solo cumpla con los requisitos técnicos, sino que también aporte valor real a los negocios.</p>
+                <p style="font-size: 1.2em; line-height: 1.6; color: #333;">Me encanta enfrentar desafíos complejos y aprender constantemente nuevas tecnologías y metodologías para mejorar mis habilidades. Ya sea trabajando en aplicaciones empresariales o en sistemas financieros críticos, mi objetivo es siempre el mismo: ofrecer soluciones de alta calidad que superen las expectativas y ayuden a las organizaciones a alcanzar sus metas.</p>
+            </div>
+
+            <div class="sobre-mi-imagen" style="flex: 1; text-align: center;">
+                <img src="tu-foto.jpg" alt="Foto de Franklin Alexander" class="mi-foto" style="border-radius: 50%; width: 250px; height: 250px; object-fit: cover; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- Sección Sobre Mí -->
+    <!-- <section id="sobre-mi" class="sobre-mi" role="region" aria-labelledby="titulo-sobre-mi">
+        <div class="contenedor">
+            <h2 id="titulo-sobre-mi">Sobre Mí</h2>
+            <p>Hola, soy [Tu Nombre], un [tu profesión] con experiencia en [áreas de especialización]. Mi pasión es [menciona tus pasiones o intereses profesionales].</p>
+            <p>A lo largo de mi carrera, he trabajado en [indica sectores o tipos de proyectos en los que has trabajado]. Me encanta aprender y mejorar continuamente mis habilidades.</p>
+        </div>
+    </section> -->
+
+    <!-- Sección Proyectos -->
+ <!-- Sección Mis Proyectos -->
+<section id="proyectos" class="proyectos" role="region" aria-labelledby="titulo-proyectos">
+    <div class="contenedor">
+        <h2 id="titulo-proyectos">Mis Proyectos</h2>
+        <div class="proyectos-grid" style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-around;">
+            <div class="proyecto" style="flex: 1; min-width: 300px; max-width: 400px;">
+                <img src="proyecto1.jpg" alt="Captura de pantalla del Sistema MFA para la banca" width="300" height="200" style="width: 100%; height: auto; border-radius: 10px;">
+                <h3>Sistema MFA para la Banca</h3>
+                <p>Desarrollé un sistema de autenticación multifactor (MFA) para una plataforma bancaria, mejorando significativamente la seguridad de las cuentas de los usuarios. Este proyecto incluyó la integración de autenticación mediante tokens y notificaciones push para autorización de transacciones, reduciendo el riesgo de accesos no autorizados.</p>
+            </div>
+            <div class="proyecto" style="flex: 1; min-width: 300px; max-width: 400px;">
+                <img src="proyecto2.jpg" alt="Captura de pantalla del monitoreo de transaccionalidad en ACH y SAT" width="300" height="200" style="width: 100%; height: auto; border-radius: 10px;">
+                <h3>Monitoreo de Transaccionalidad en ACH y SAT</h3>
+                <p>Implementé un sistema de monitoreo para transacciones realizadas a través de ACH y SAT, que permitía la supervisión en tiempo real de las transacciones. Este sistema ayudó a detectar y prevenir fraudes, asegurando la integridad de las transacciones financieras y mejorando la confianza de los usuarios en el sistema.</p>
+            </div>
+            <div class="proyecto" style="flex: 1; min-width: 300px; max-width: 400px;">
+                <img src="proyecto3.jpg" alt="Captura de pantalla de la implementación de hardtoken para usuarios de banca" width="300" height="200" style="width: 100%; height: auto; border-radius: 10px;">
+                <h3>Implementación de Hardtoken para Usuarios de Banca</h3>
+                <p>Desarrollé e implementé una solución de hardtoken para usuarios de banca en línea, proporcionando un segundo factor de autenticación físico para acceder a sus cuentas. Este proyecto mejoró la seguridad al requerir un dispositivo físico para la autenticación, reduciendo drásticamente los casos de fraude y accesos no autorizados.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contacto" role="form" aria-labelledby="titulo-contacto">
+        <div class="contenedor">
+            <h2 id="titulo-contacto">Contacto</h2>
+            <form action="enviar_formulario.php" method="post">
+                <div class="form-grupo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required aria-required="true">
+                </div>
+                <div class="form-grupo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required aria-required="true">
+                </div>
+                <div class="form-grupo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required aria-required="true"></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer role="contentinfo">
+        <div class="contenedor">
+            <p>&copy; 2024 Todos los derechos reservados.</p>
+            <div class="redes-sociales">
+                <!-- <a href="https://twitter.com/tuusuario" target="_blank" aria-label="Twitter de [Tu Nombre]">Twitter</a> -->
+                <a href="https://www.linkedin.com/in/franklin-alexander-simalij-yancoba-33a890200/" target="_blank" aria-label="LinkedIn de [franklin]">LinkedIn</a>
+                <a href="https://github.com/alexander210921" target="_blank" aria-label="GitHub de [franklin]">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

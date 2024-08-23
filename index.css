@@ -1,0 +1,272 @@
+/* General */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('fondo-hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.hero .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Sección Sobre Mí */
+.sobre-mi {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.sobre-mi h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.sobre-mi p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Sección Proyectos */
+.proyectos {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.proyectos h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.proyectos-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.proyecto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.proyecto img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.proyecto h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.proyecto p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Sección Contacto */
+.contacto {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contacto form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contacto .form-grupo {
+    margin-bottom: 20px;
+}
+
+.contacto .form-grupo label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contacto .form-grupo input,
+.contacto .form-grupo textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contacto .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .redes-sociales a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilo para la sección Sobre Mí */
+.sobre-mi {
+    background: linear-gradient(135deg, #f0f0f0, #ffffff);
+    padding: 60px 0;
+    text-align: center;
+}
+
+.sobre-mi h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.sobre-mi h2::after {
+    content: '';
+    width: 80px;
+    height: 4px;
+    background-color: #6c63ff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sobre-mi-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.sobre-mi-texto {
+    flex: 1 1 50%;
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.sobre-mi-texto strong {
+    color: #333;
+    font-weight: 700;
+}
+
+.sobre-mi-texto em {
+    color: #6c63ff;
+    font-style: normal;
+}
+
+.sobre-mi-imagen {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mi-foto {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .sobre-mi-content {
+        flex-direction: column;
+    }
+
+    .sobre-mi-imagen {
+        margin-top: 30px;
+    }
+}
